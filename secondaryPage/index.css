@@ -1,0 +1,116 @@
+audio{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+#butterfly{
+    width: 25%;
+    position: absolute;
+    z-index: 1;
+    top: -9%;
+    right: 24%;
+}
+
+#display {
+    background-color: #FCF6E8;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+#hide{
+    font-size: 700%;
+    padding: 10px;
+    border-radius: 20px;
+}
+#deadFlower{
+    width:20%;
+    position: absolute;
+    bottom:5px;
+    left: 5px;  
+}
+
+.fact{
+    position: absolute;
+    right:70px;
+    top:130px;
+    width: 50%;
+    display: none;
+
+}
+
+.hover{
+    z-index: 100px;
+     -webkit-filter: blur(15px); /* Safari 6.0 - 9.0 */
+    filter: blur(15px);
+    border-radius: 100px;
+}
+
+.hover:hover{
+    -webkit-filter:none; /* Safari 6.0 - 9.0 */
+    filter: none;
+    border-radius: 0px;
+    
+}
+
+#left{
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    width: 25%;
+    padding: 10px;
+    background-color: rgba(130,0,255,.5);
+    border-radius: 30px;
+    
+}
+#left:hover{
+    background-color: rgba(180,0,255,0.8);
+    border-radius: 120px;
+    
+}
+
+
+#ofrenda{
+    position: absolute;
+    left: 0;
+    top:0;
+    background-color:beige;
+    
+}
+#ofrenda:hover{
+    background-color:crimson;
+    
+}
+
+#panDeLosMuertos{
+    width: 35%;
+    position: absolute;
+    top:70%;
+    left:25%;
+}
+#skeleton{
+    width: 17%;
+    position: absolute;
+    top: 0px;
+    left: 9px;
+    z-index: 1;
+    }
+
+#skull{
+    width: 8.5%;
+    position: absolute;
+    top: 0px;
+    left: 35%;
+}
+#tequila{
+    position: absolute;
+    width: 15%;
+    top: 43%;
+    left: 6%;
+    z-index: 1;
+    
+}

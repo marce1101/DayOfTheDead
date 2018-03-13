@@ -1,0 +1,157 @@
+audio{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+#display {
+    background-color: #005;
+    background-image:url(SVG/background_1.svg);
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#controls {
+    margin: auto;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    background-color: midnightblue;
+    z-index: 100;
+    padding: 1%;
+    margin-top:3%;
+    border-radius: 20px;
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+
+#hide{
+    font-size: 700%;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+#deadFlower{
+    width:20%;
+    position: absolute;
+    bottom:5px;
+    left: 5px;  
+}
+
+#tomb{
+    width:20%;
+    position:fixed ;
+    top: 40%;
+    left: 29%;
+}
+#path{
+    width: 55%;
+    position: fixed;
+    right: 230px;
+    bottom: 110px;
+    
+}
+#flower{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+}
+.flower1{
+    width: 450px;
+    height: 450px;
+}
+.flower2{
+    width: 575px;
+    height: 575px;
+}
+.flower3{
+    width: 700px;
+    height: 700px;
+}
+.flower4{
+    width: 800px;
+    height: 800px;
+}
+.flower5{
+    width: 900px;
+    height: 900px;
+}
+.flower6{
+    width: 1000px;
+    height: 1000px;
+}
+.flower7{
+    width: 1100px;
+    height: 1100px;
+}
+.flower8{
+    width: 1600px;
+    height: 1600px;
+}
+.flower9{
+    width: 1400px;
+    height: 1400px;
+}
+.flower10{
+    width: 1600px;
+    height: 1600px;
+}
+
+.fact{
+    position: absolute;
+    right:70px;
+    top:48px;
+    width: 50%;
+    z-index: -;
+    display: none;
+    
+
+}
+
+#fskeleton{
+    width: 6%;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    z-index: -1;
+    
+}
+
+.hover{
+    z-index: 100px;
+     -webkit-filter: blur(15px); /* Safari 6.0 - 9.0 */
+    filter: blur(15px);
+    border-radius: 100px;
+}
+
+.hover:hover{
+    -webkit-filter:none; /* Safari 6.0 - 9.0 */
+    filter: none;
+    border-radius: 100px;
+    
+}
+
+#right{
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    width: 25%;
+    padding: 10px;
+    background-color: rgba(130,0,255,.5);
+    border-radius: 30px;
+    
+}
+#right:hover{
+    background-color: rgba(180,0,255,0.8);
+    border-radius: 120px;
+    
+}
